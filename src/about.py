@@ -9,7 +9,6 @@ from pyrogram.types import *
 # Totally Optional
 
 def about(client, callback_query):
-    query = callback_query
     kkeeyyb = [
         [InlineKeyboardButton("📪UPDATES", url="https://t.me/coderzHex"),InlineKeyboardButton("🕵‍♂CREATOR", url="https://t.me/Diago_x")],
         [InlineKeyboardButton("♻️HELP", callback_data="instructions"),InlineKeyboardButton("📕ABOUT", callback_data="about")],
