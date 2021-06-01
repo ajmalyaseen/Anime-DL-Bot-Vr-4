@@ -15,17 +15,11 @@ def instructions(client, callback_query):
         [InlineKeyboardButton("Search Anime Inline", switch_inline_query_current_chat="")]
     ]
     reply_markup = InlineKeyboardMarkup(keyb)
-    query.edit_message_caption(caption="""**This Bot can Get your favourite Anime and It provides FREE Download Link with a fastest server(Google drive). ❤️😍**
-**Points to Be Noted :-**
+    query.edit_message_caption(caption="""**help**
 
-__👉Since gogoanime changes their domain often, The bot will go for frequent maintenance. Don't worry, the bot will still be online during maintenance.__
+💡 /search  ᴀɴɪᴍᴇ ɴᴀᴍᴇ -> 𝘴𝘦𝘢𝘳𝘤𝘩  𝘢𝘯𝘪𝘮𝘦
 
-__👉For streaming in mobile, open the links with VLC Media Player. You can also use MX Player.__
+💡 /airing -> 𝘎𝘦𝘵 𝘵𝘳𝘦𝘯𝘥𝘪𝘯𝘨 𝘈𝘯𝘪𝘮𝘦
 
-__👉For streaming in PC, use VLC media player network stream.__
-
-__👉For downloads, just open the links in a browser.__
-
-**That's it, You are all caught up, just start and enjoy your favourite otaku anime😁😆**
-
-**Type /search to Search for an Anime...**""", parse_mode="markdown", reply_markup=reply_markup)
+💡 /genres -> get anime genres
+**coderzHex**""", parse_mode="markdown", reply_markup=reply_markup)
