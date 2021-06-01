@@ -87,4 +87,3 @@ def mangaLatest():
         except requests.exceptions.ConnectionError:
             return "Check the host's network Connection"
        
-© 2021 GitHub, Inc.
