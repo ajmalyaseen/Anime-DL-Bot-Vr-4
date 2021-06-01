@@ -53,7 +53,7 @@ def main():
     bot.add_handler(MessageHandler(anime_inline_details, filters.text), group=13)
     bot.add_handler(CallbackQueryHandler(get_ep, filters.regex('eplink_*')), group=14)
     bot.add_handler(CallbackQueryHandler(about, filters.regex('about')), group=15)
-    bot.add_handler(CallbackQueryHandler(back, filters.regex('back')), group=15)
+    bot.add_handler(CallbackQueryHandler(back, filters.regex('back')), group=16)
 # Calling main method and handlers, polling state
 if __name__ == '__main__':
     bot.run(main())
