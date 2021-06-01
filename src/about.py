@@ -12,7 +12,7 @@ def about(client, callback_query):
     query = callback_query
     query.answer("Please Read Carefully!!!")
     keyb = [
-        [InlineKeyboardButton("")]
+        [InlineKeyboardButton("📪UPDATES", url="https://t.me/coderzHex"),InlineKeyboardButton("🕵‍♂CREATOR", url="https://t.me/Diago_x")],
     ]
     reply_markup = InlineKeyboardMarkup(keyb)
     query.edit_message_caption(caption="""
