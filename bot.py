@@ -16,6 +16,7 @@ from src.inline_search import inline_search
 from src.get_episodes_index import get_epIndex
 from src.get_episode_link import get_ep_link
 from src.instructions import instructions
+from src.about import about 
 from src.airing import airing_eps
 from src.inline_search_results import anime_inline_details
 from src.get_ep_numbers import get_ep
@@ -50,6 +51,7 @@ def main():
     bot.add_handler(CallbackQueryHandler(instructions, filters.regex('instructions')), group=12)
     bot.add_handler(MessageHandler(anime_inline_details, filters.text), group=13)
     bot.add_handler(CallbackQueryHandler(get_ep, filters.regex('eplink_*')), group=14)
+    bot.add_handler(CallbackQueryHandler(about, filters.regex('about')), group=15)
 
 # Calling main method and handlers, polling state
 if __name__ == '__main__':
