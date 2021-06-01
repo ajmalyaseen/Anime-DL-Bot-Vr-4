@@ -15,7 +15,7 @@ def about(client, callback_query):
         [InlineKeyboardButton("♻️HELP", callback_data="instructions"),InlineKeyboardButton("📕ABOUT", callback_data="about")],
     ]
     reply_markup = InlineKeyboardMarkup(kkeeyyb)
-    query.edit_message_text(caption="""
+    query.edit_message_text(text="""
 
  **About Me**
 
