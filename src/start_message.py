@@ -10,8 +10,8 @@ from pyrogram.types import *
 
 def start_message(client, message):
     kkeeyyb = [
-        [InlineKeyboardButton("📪UPDATES", url="https://t.me/coderzHex")],
-        [InlineKeyboardButton("Instructions", callback_data="instructions")],
+        [InlineKeyboardButton("📪UPDATES", url="https://t.me/coderzHex"),InlineKeyboardButton("🕵‍♂CREATOR", url="https://t.me/Diago_x")],
+        [InlineKeyboardButton("♻️HELP", callback_data="instructions")],
     ]
     reply_markup = InlineKeyboardMarkup(kkeeyyb)
     pic_url = "https://telegra.ph/file/dac37677227331b5a29f3.jpg"
