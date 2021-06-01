@@ -10,6 +10,7 @@ from pyrogram.types import *
 
 def start_message(client, message):
     kkeeyyb = [
+        [InlineKeyboardButton("📪UPDATES", url="https://t.me/coderzHex")],
         [InlineKeyboardButton("Instructions", callback_data="instructions")],
     ]
     reply_markup = InlineKeyboardMarkup(kkeeyyb)
