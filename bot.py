@@ -17,7 +17,7 @@ from src.get_episodes_index import get_epIndex
 from src.get_episode_link import get_ep_link
 from src.instructions import instructions
 from src.about import about 
-from src.about import about
+from src.back import back
 from src.airing import airing_eps
 from src.inline_search_results import anime_inline_details
 from src.get_ep_numbers import get_ep
