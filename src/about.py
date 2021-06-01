@@ -33,4 +33,4 @@ def about(client, callback_query):
 
 **ᴜᴘᴅᴀᴛᴇᴅ ᴏɴ 1-6-21 ɪɴᴅɪᴀɴ ᴛɪᴍᴇ 7 :00 ᴘᴍ**
 
-**©ᴄᴏᴅᴇʀᴢʜᴇx**""", parse_mode="markdown", reply_markup=reply_markup)
+**©ᴄᴏᴅᴇʀᴢʜᴇx**""", reply_markup=reply_markup, parse_mode="markdown")
