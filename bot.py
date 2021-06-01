@@ -19,7 +19,6 @@ from src.instructions import instructions
 from src.airing import airing_eps
 from src.inline_search_results import anime_inline_details
 from src.get_ep_numbers import get_ep
-from src.kissmangaapi import manga_link
 import config
 
 # Logging is optional
