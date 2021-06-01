@@ -12,7 +12,7 @@ def about(client, callback_query):
     query = callback_query
     query.answer("Please Read Carefully!!!")
     keyb = [
-        [InlineKeyboardButton("Search Anime Inline", switch_inline_query_current_chat="")]
+        [InlineKeyboardButton("")]
     ]
     reply_markup = InlineKeyboardMarkup(keyb)
     query.edit_message_caption(caption="""
