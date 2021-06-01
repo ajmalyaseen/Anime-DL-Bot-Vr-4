@@ -11,7 +11,7 @@ from pyrogram.types import *
 def start_message(client, message):
     kkeeyyb = [
         [InlineKeyboardButton("📪UPDATES", url="https://t.me/coderzHex"),InlineKeyboardButton("🕵‍♂CREATOR", url="https://t.me/Diago_x")],
-        [InlineKeyboardButton("♻️HELP", callback_data="instructions"),InlineKeyboardButton("📕ABOUT", callback_data="back")],
+        [InlineKeyboardButton("♻️HELP", callback_data="instructions"),InlineKeyboardButton("📕ABOUT", callback_data="about")],
     ]
     reply_markup = InlineKeyboardMarkup(kkeeyyb)
     pic_url = "https://telegra.ph/file/dac37677227331b5a29f3.jpg"
