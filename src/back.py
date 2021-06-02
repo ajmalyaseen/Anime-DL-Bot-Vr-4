@@ -8,10 +8,11 @@ from pyrogram.types import *
 
 # Totally Optional
 
-def about(client, callback_query):
+def back(client, callback_query):
     query = callback_query
     kkeeyyb = [
-        [InlineKeyboardButton("BACK", callback_data=f"back")],
+        [InlineKeyboardButton("📪UPDATES", url="https://t.me/coderzHex"),InlineKeyboardButton("🕵‍♂CREATOR", url="https://t.me/Diago_x")],
+        [InlineKeyboardButton("♻️HELP", callback_data="instructions"),InlineKeyboardButton("📕ABOUT", callback_data="about")],
     ]
     reply_markup = InlineKeyboardMarkup(kkeeyyb)
     query.edit_message_text(f"""Hi {message.chat.first_name}
