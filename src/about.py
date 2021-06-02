@@ -14,9 +14,8 @@ def about(client, callback_query):
         [InlineKeyboardButton("BACK", callback_data=f"back")],
     ]
     reply_markup = InlineKeyboardMarkup(kkeeyyb)
-    query.edit_message_text(f"""=
+    query.edit_message_text(f"""**About Me**
 
- **About Me**
 
 • 𝐍𝐚𝐦𝐞 : Anime_DL 
 
