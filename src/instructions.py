@@ -16,7 +16,7 @@ def instructions(client, callback_query):
     reply_markup = InlineKeyboardMarkup(kkeeyyb)
     query.edit_message_text(f"""
 
-🔰<u>𝐁𝐚𝐬𝐢𝐜 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬</u>
+🔰 𝐁𝐚𝐬𝐢𝐜 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬
 
 /start - **ᴄʜᴇᴄᴋ ɪғ ɪ ᴀᴍ ᴀʟɪᴠᴇ ᴏʀ ɴᴏᴛ**
 
@@ -24,7 +24,7 @@ def instructions(client, callback_query):
 
 /about - **ᴛᴏ ᴋɴᴏᴡ ᴀʙᴏᴜᴛ ᴍʏ ᴘᴇʀsᴏɴᴀʟ ɪɴғᴏʀᴍᴀᴛɪᴏɴ** 
 
-🔰<u>𝐇𝐨𝐰 𝐓𝐨 𝐔𝐬𝐞 𝐌𝐞</u>
+🔰 𝐇𝐨𝐰 𝐓𝐨 𝐔𝐬𝐞 𝐌𝐞
 
 • /search  **ᴀɴɪᴍᴇ ɴᴀᴍᴇ ->  ɢᴇᴛ ʏᴏᴜʀ ᴀɴɪᴍᴇ**
 
@@ -32,7 +32,7 @@ def instructions(client, callback_query):
 
 • /airing  ->  **ɢᴇᴛ ᴛʀᴇɴᴅɪɴɢ ᴀɴɪᴍᴇ**
 
-🔰<u>𝐃𝐨𝐧𝐚𝐭𝐢𝐨𝐧𝐬</u>
+🔰 𝐃𝐨𝐧𝐚𝐭𝐢𝐨𝐧𝐬
 
 𝐃𝐨𝐧𝐚𝐭𝐞 𝐮𝐬 𝐓𝐨 𝐤𝐞𝐞𝐩 𝐨𝐮𝐫 𝐬𝐞𝐫𝐯𝐢𝐜𝐞𝐬 𝐜𝐨𝐧𝐭𝐢𝐧𝐮𝐨𝐮𝐬 𝐚𝐥𝐢𝐯𝐞😢
 
@@ -41,4 +41,4 @@ def instructions(client, callback_query):
  
 **💰For Donate: DM @CoderzRoBot**
 
-**[©️ᴄᴏᴅᴇʀᴢʜᴇx](https://t.me/coderzHex)**""", reply_markup=reply_markup, parse_mode="markdown")
+**[©️ᴄᴏᴅᴇʀᴢʜᴇx](https://t.me/coderzHex)**""", reply_markup=reply_markup, parse_mode="markdown", disable_web_page_preview=True)
