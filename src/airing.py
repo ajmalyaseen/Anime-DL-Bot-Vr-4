@@ -32,5 +32,4 @@ def airing_eps(client, message):
         else:
             air.append([InlineKeyboardButton(f"{name}", callback_data=f"dt_{lnk_final}")])
     repl = InlineKeyboardMarkup(air)
-    message.reply_text("**🔰 currently Trending anime 
-Tap Any Button\n\n[©ᴄᴏᴅᴇʀᴢʜᴇx](https://t.me/coderzHex)**", reply_markup=repl, parse_mode="markdown", disable_web_page_preview=True)
+    message.reply_text("**🔰 Currently Trending Anime \n\n[©ᴄᴏᴅᴇʀᴢʜᴇx](https://t.me/coderzHex)**", reply_markup=repl, parse_mode="markdown", disable_web_page_preview=True)
