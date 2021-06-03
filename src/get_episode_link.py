@@ -250,8 +250,7 @@ __Note: Select HDP link for faster streaming.__""", reply_markup=reply_markup, p
              (InlineKeyboardButton("↔️Back To list↔️", callback_data=f"dl_{str_qry_final}")),
              (InlineKeyboardButton("Next Ep ⏩", callback_data=f"eps_{ep_num_link_get + 1}_{str_qry_final}"))])
         reply_markup = InlineKeyboardMarkup(keys)
-        query.edit_message_text(text=f"""You are now watching **Episode {ep_num_link_get}** of **{tit_url}** :-
+        query.edit_message_text(text=f"""**Episode {ep_num_link_get}** of **{tit_url}** :-
 
-Please share the bot if you like it ☺️.
-
-__Note: Select HDP link for faster streaming.__""", reply_markup=reply_markup, parse_mode="markdown")
+STREAMING -> Select HDP Link 
+DIRECT DOWNLOAD -> Select Quality Link Eg:  Ep1 (720P""", reply_markup=reply_markup, parse_mode="markdown")
