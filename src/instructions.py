@@ -28,7 +28,7 @@ def instructions(client, callback_query):
 
 • /search  **ᴀɴɪᴍᴇ ɴᴀᴍᴇ ->  ɢᴇᴛ ʏᴏᴜʀ ᴀɴɪᴍᴇ**
 
-• /genre -> **ɢᴇᴛ ᴀɴɪᴍᴇ ɢᴇɴʀᴇ**
+• /genres -> **ɢᴇᴛ ᴀɴɪᴍᴇ ɢᴇɴʀᴇ**
 
 • /airing  ->  **ɢᴇᴛ ᴛʀᴇɴᴅɪɴɢ ᴀɴɪᴍᴇ**
 
