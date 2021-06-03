@@ -14,8 +14,7 @@ def about(client, callback_query):
         [InlineKeyboardButton("⬇️BACK", callback_data=f"back"),InlineKeyboardButton("♻️HELP", callback_data=f"instructions")],
     ]
     reply_markup = InlineKeyboardMarkup(kkeeyyb)
-    query.edit_message_text(f"""**About Me**
-
+    query.edit_message_text(f"""**ABOUT ME**
 
 • 𝐍𝐚𝐦𝐞 : Anime searcher 
 
@@ -29,6 +28,6 @@ def about(client, callback_query):
 
 • 𝐂𝐫𝐞𝐚𝐭𝐨𝐫 : MR:x
 
-**ᴜᴘᴅᴀᴛᴇᴅ ᴏɴ 1-6-21 ɪɴᴅɪᴀɴ ᴛɪᴍᴇ 7 :00 ᴘᴍ**
+**ᴜᴘᴅᴀᴛᴇᴅ ᴏɴ 3-6-21 ɪɴᴅɪᴀɴ ᴛɪᴍᴇ 7 :00 ᴘᴍ**
 
 **[©ᴄᴏᴅᴇʀᴢʜᴇx](https:t.me/coderzHex)**""", reply_markup=reply_markup, parse_mode="markdown")
