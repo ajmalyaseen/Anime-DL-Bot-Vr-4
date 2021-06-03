@@ -58,20 +58,21 @@ def anime_details(client, callback_query):
         ep_num = source_url.get("ep_end")
     kkeeyyb = [
         [InlineKeyboardButton("Download for Free", callback_data=f"dl_{data}")],
+        [InlineKeyboardButton("📪UPDATES", url="https//t.me/coderzHex")],
     ]
     reply_markup = InlineKeyboardMarkup(kkeeyyb)
-    query.edit_message_text(f"""[{tit_url}]({imgg})
+    query.edit_message_text(f"""[**{tit_url}**]({imgg})
     
 **{tit_url} ({year})**
 
 **{oth_names}**
 
-**Type:** `{type_of_show}`
+**Type:**  {type_of_show}
 
-**Status: **__{status}__
+**Status: ** {status}
 
-**Genres: **`{genres}`
+**Genres: **b{genres}
 
-**Episodes: **__{ep_num}__
+**Episodes: ** {ep_num}
 
-**Summary: **`{plot_summary}`""", reply_markup=reply_markup, parse_mode="markdown")
+**Story Line: **{plot_summary}""", reply_markup=reply_markup, parse_mode="markdown")
