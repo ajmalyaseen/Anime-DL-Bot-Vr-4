@@ -51,23 +51,22 @@ def anime_inline_details(client,message):
         ep_num = int(source_url.get("ep_end"))
         kkeeyyb = [
             [InlineKeyboardButton("Download Ad-Free", callback_data=f"dl {message.text}")],
-            [InlineKeyboardButton("📪UPDATES", url="https//t.me/coderzHex")],
         ]
         reply_markup = InlineKeyboardMarkup(kkeeyyb)
-        message.reply_text(f"""[**{tit_url}**]({imgg})
-    
+        message.reply_text(f"""[{tit_url}]({imgg})
+        
 **{tit_url} ({year})**
-
+        
 **{oth_names}**
-
-**Type:**  {type_of_show}
-
+        
+**Type: ** {type_of_show}
+        
 **Status: ** {status}
-
+        
 **Genres: ** {genres}
-
+        
 **Episodes: ** {ep_num}
-
-**Story Line: **{plot_summary}""", reply_markup=reply_markup, parse_mode="markdown")
+        
+**Summary: ** {plot_summary}""", reply_markup=reply_markup, parse_mode="markdown")
     except:
         pass
