@@ -11,7 +11,7 @@ from pyrogram.types import *
 def about(client, callback_query):
     query = callback_query
     kkeeyyb = [
-        [InlineKeyboardButton("BACK", callback_data=f"back")],
+        [InlineKeyboardButton("⬇️BACK", callback_data=f"back"),InlineKeyboardButton("♻️HELP", callback_data=f"instructions")],
     ]
     reply_markup = InlineKeyboardMarkup(kkeeyyb)
     query.edit_message_text(f"""**About Me**
