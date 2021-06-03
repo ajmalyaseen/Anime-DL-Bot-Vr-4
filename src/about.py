@@ -16,7 +16,7 @@ def about(client, callback_query):
     reply_markup = InlineKeyboardMarkup(kkeeyyb)
     query.edit_message_text(f"""**ABOUT ME**
 
-• 𝐍𝐚𝐦𝐞 : **Anime searcher** 
+• 𝐍𝐚𝐦𝐞 : **[𝙰𝚗𝚒𝚖𝚎 𝚂𝚎𝚊𝚛𝚌𝚑𝚎𝚛](http://t.me/Animesearcherpro_bot)** 
 
 • 𝐋𝐚𝐧𝐠𝐮𝐚𝐠𝐞 : **Payton** 
 
