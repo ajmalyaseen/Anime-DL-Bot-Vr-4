@@ -10,14 +10,13 @@ from pyrogram.types import *
 
 def instructions(client, callback_query):
     query = callback_query
-    query.answer("Please Read Carefully!!!")
-    keyb = [
-        [InlineKeyboardButton("Search Anime Inline", switch_inline_query_current_chat="")]
+    kkeeyyb = [
+        [InlineKeyboardButton("⬇️BACK", callback_data=f"back"),InlineKeyboardButton("📕ABOUT", callback_data=f"about")],
     ]
-    reply_markup = InlineKeyboardMarkup(keyb)
-    query.edit_message_caption(caption="""
+    reply_markup = InlineKeyboardMarkup(kkeeyyb)
+    query.edit_message_text(f"""
 
-🔰𝐁𝐚𝐬𝐢𝐜 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬
+🔰<u>𝐁𝐚𝐬𝐢𝐜 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬</u>
 
 /start - **ᴄʜᴇᴄᴋ ɪғ ɪ ᴀᴍ ᴀʟɪᴠᴇ ᴏʀ ɴᴏᴛ**
 
@@ -25,7 +24,7 @@ def instructions(client, callback_query):
 
 /about - **ᴛᴏ ᴋɴᴏᴡ ᴀʙᴏᴜᴛ ᴍʏ ᴘᴇʀsᴏɴᴀʟ ɪɴғᴏʀᴍᴀᴛɪᴏɴ** 
 
-🔰𝐇𝐨𝐰 𝐓𝐨 𝐔𝐬𝐞 𝐌𝐞
+🔰<u>𝐇𝐨𝐰 𝐓𝐨 𝐔𝐬𝐞 𝐌𝐞</u>
 
 • /search  **ᴀɴɪᴍᴇ ɴᴀᴍᴇ ->  ɢᴇᴛ ʏᴏᴜʀ ᴀɴɪᴍᴇ**
 
@@ -33,7 +32,7 @@ def instructions(client, callback_query):
 
 • /airing  ->  **ɢᴇᴛ ᴛʀᴇɴᴅɪɴɢ ᴀɴɪᴍᴇ**
 
-🔰𝐃𝐨𝐧𝐚𝐭𝐢𝐨𝐧𝐬
+🔰<u>𝐃𝐨𝐧𝐚𝐭𝐢𝐨𝐧𝐬</u>
 
 𝐃𝐨𝐧𝐚𝐭𝐞 𝐮𝐬 𝐓𝐨 𝐤𝐞𝐞𝐩 𝐨𝐮𝐫 𝐬𝐞𝐫𝐯𝐢𝐜𝐞𝐬 𝐜𝐨𝐧𝐭𝐢𝐧𝐮𝐨𝐮𝐬 𝐚𝐥𝐢𝐯𝐞😢
 
@@ -42,4 +41,4 @@ def instructions(client, callback_query):
  
 **💰For Donate: DM @CoderzRoBot**
 
-**[©️ᴄᴏᴅᴇʀᴢʜᴇx](https://t.me/coderzHex)**""", parse_mode="markdown", reply_markup=reply_markup)
+**[©️ᴄᴏᴅᴇʀᴢʜᴇx](https://t.me/coderzHex)**""", reply_markup=reply_markup, parse_mode="markdown")
