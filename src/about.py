@@ -14,7 +14,7 @@ def about(client, callback_query):
         [InlineKeyboardButton("⬇️BACK", callback_data=f"back"),InlineKeyboardButton("♻️HELP", callback_data=f"instructions")],
     ]
     reply_markup = InlineKeyboardMarkup(kkeeyyb)
-    query.edit_message_text(f"""**<u>ABOUT ME</u>**
+    query.edit_message_text(f"""**ABOUT ME**
 
 • 𝐍𝐚𝐦𝐞 : **[𝙰𝚗𝚒𝚖𝚎 𝚂𝚎𝚊𝚛𝚌𝚑𝚎𝚛](http://t.me/Animesearcherpro_bot)** 
 
