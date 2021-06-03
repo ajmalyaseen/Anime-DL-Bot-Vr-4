@@ -42,5 +42,7 @@ def anime_search(client, message):
             message.reply_text("No results found, Check your Spelling and Search Again...")
         else:
             rep = InlineKeyboardMarkup(keyb)
-            message.reply_text(text=f"Your Search results for **{query}**", reply_markup=rep, parse_mode="markdown")
+            message.reply_text(text=f"Your Search results for **{query}
+
+[©️ᴄᴏᴅᴇʀᴢʜᴇx](https://t.me/coderzHex)**", reply_markup=rep, parse_mode="markdown", disable_web_page_preview=True)
 
