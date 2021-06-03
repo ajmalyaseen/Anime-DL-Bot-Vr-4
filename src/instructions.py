@@ -15,11 +15,31 @@ def instructions(client, callback_query):
         [InlineKeyboardButton("Search Anime Inline", switch_inline_query_current_chat="")]
     ]
     reply_markup = InlineKeyboardMarkup(keyb)
-    query.edit_message_caption(caption="""**help**
+    query.edit_message_caption(caption="""
 
-💡 /search  ᴀɴɪᴍᴇ ɴᴀᴍᴇ -> 𝘴𝘦𝘢𝘳𝘤𝘩  𝘢𝘯𝘪𝘮𝘦
+🔰𝐁𝐚𝐬𝐢𝐜 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬
 
-💡 /airing -> 𝘎𝘦𝘵 𝘵𝘳𝘦𝘯𝘥𝘪𝘯𝘨 𝘈𝘯𝘪𝘮𝘦
+/start - **ᴄʜᴇᴄᴋ ɪғ ɪ ᴀᴍ ᴀʟɪᴠᴇ ᴏʀ ɴᴏᴛ**
 
-💡 /genres -> get anime genres
-**coderzHex**""", parse_mode="markdown", reply_markup=reply_markup)
+/help - **ʜᴇʟᴘs ʏᴏᴜ, ʜᴏᴡ ᴛᴏ ᴜsᴇ ᴍᴇ**
+
+/about - **ᴛᴏ ᴋɴᴏᴡ ᴀʙᴏᴜᴛ ᴍʏ ᴘᴇʀsᴏɴᴀʟ ɪɴғᴏʀᴍᴀᴛɪᴏɴ** 
+
+🔰𝐇𝐨𝐰 𝐓𝐨 𝐔𝐬𝐞 𝐌𝐞
+
+• /search  **ᴀɴɪᴍᴇ ɴᴀᴍᴇ ->  ɢᴇᴛ ʏᴏᴜʀ ᴀɴɪᴍᴇ**
+
+• /genre -> **ɢᴇᴛ ᴀɴɪᴍᴇ ɢᴇɴʀᴇ**
+
+• /airing  ->  **ɢᴇᴛ ᴛʀᴇɴᴅɪɴɢ ᴀɴɪᴍᴇ**
+
+🔰𝐃𝐨𝐧𝐚𝐭𝐢𝐨𝐧𝐬
+
+𝐃𝐨𝐧𝐚𝐭𝐞 𝐮𝐬 𝐓𝐨 𝐤𝐞𝐞𝐩 𝐨𝐮𝐫 𝐬𝐞𝐫𝐯𝐢𝐜𝐞𝐬 𝐜𝐨𝐧𝐭𝐢𝐧𝐮𝐨𝐮𝐬 𝐚𝐥𝐢𝐯𝐞😢
+
+𝐲𝐨𝐮 𝐜𝐚𝐧 𝐬𝐞𝐧𝐝 𝐚𝐧𝐲 𝐚𝐦𝐨𝐮𝐧𝐭
+𝐨𝐟 𝟐𝟎𝐫𝐬 , 𝟑𝟎𝐫𝐬, 𝟓𝟎𝐫𝐬, 𝟕𝟎𝐫𝐬, 𝟏𝟎𝟎𝐫𝐬, 𝟐𝟎𝟎𝐫𝐬 
+ 
+**💰For Donate: DM @CoderzRoBot**
+
+**[©️ᴄᴏᴅᴇʀᴢʜᴇx](https://t.me/coderzHex)**""", parse_mode="markdown", reply_markup=reply_markup)
